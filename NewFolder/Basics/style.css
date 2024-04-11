@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+
+h1:hover{
+    /* color: red;
+    color: rgb(255, 0,0); */
+    color: rgba(255, 0, 0, 1);
+
+}
+
+p.para{
+    /* color: rgb(255, 0, 255); */
+    /* color: rgba(0, 0, 255, 1); */
+    color: #FF9800;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+

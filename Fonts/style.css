@@ -1,0 +1,97 @@
+
+/* Font Properties --------------------------------  */
+
+/* 1. Font Family
+   2. Font Size
+   3. Font Style
+   4. Font Weight
+   5 Font Variants
+ */  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* body{
+    height: 100dvh;
+    background-color: #F1EEDC;
+    display: grid;
+    place-items: center;    
+ }
+
+ .hero-section{
+    width: 50%;
+ }
+
+ h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+ }
+
+ p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-stretch: condensed; 
+    font-weight: 600;
+}
+ 
+a{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font: 36px;
+} */
+
+
+
+/* Style practice */
+
+
+@font-face {
+    font-family: "maheshfonts";
+    src: url(./Font/Adorable\ Handmade.ttf) format("OpenType");
+}
+
+body{
+height: 100dvh;
+ background-color: darkgrey;
+ display: grid;
+ place-items: center;
+
+
+}
+
+
+.hero-section{
+    width: 60%;
+}
+
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+  }
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-family: maheshfonts;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+
