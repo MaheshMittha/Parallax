@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#heading{
+    margin-left: 50px;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #102C57;
+    border-radius: 100% 0% 100% 0% / 94% 2% 98% 6%  ;
+    background-image: linear-gradient(red, yellow);
+    background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+
