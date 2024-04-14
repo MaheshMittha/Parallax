@@ -3,7 +3,14 @@
     border-radius: 20px;
     /* margin-left: 35%; */
     background-image: linear-gradient(to left bottom, #6bd181, #9bc463, #beb555, #d6a458, #e59568, #eb8c71, #ef837c, #ef7c8a, #f4758f, #f86d97, #fa66a0, #fb5faa);
-    padding: 100px 150px 50px 250px;
+    /* padding: 100px 150px 50px 250px; */
+    padding-top: -100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-left: 250px;
 }
+
+
+
 
 
