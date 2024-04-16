@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(red, yellow); */
+    /* background-image: linear-gradient(to right, red , yellow); */
+    /* background-image: linear-gradient(to left, red , yellow); */
+    /* background-image: linear-gradient(90deg, red , yellow); */
+    /* background-image: linear-gradient(180deg, red , yellow); */
+    /* background-image: linear-gradient(90deg, red , yellow); */
+    /* background-image: linear-gradient(red, yellow); */
+    /* background-image: linear-gradient(to bottom, red, yellow); */
+    /* background-image: linear-gradient(to left, red, yellow); */
+    /* background-image: linear-gradient(to top, red, yellow); */
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(to left, red, yellow); */       
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(to left, red, yellow); */
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient( to bottom, red, yellow); */
+    /* background-image: linear-gradient(to top, red, yellow); */
+    /* background-image: linear-gradient(to top left, red, yellow); */
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+    /* background-image: linear-gradient(to bottom left, red, yellow); */
+    /* background-image: linear-gradient( to top right, red, yellow); */
+    /* background-image: linear-gradient(to bottom left, red, yellow); */
+    /* background-image: linear-gradient(to left top, red, yellow); */
+       /* background-image: linear-gradient(to left top, red, yellow); */
+
+       /* background-image: linear-gradient( to right , red, yellow);
+       background-image: linear-gradient(to left, yellow, red);
+       background-image: linear-gradient(to right top, yellow, red);
+       background-image: linear-gradient(to top right, yellow, red);
+       background-image: linear-gradient(to left bottom, red, yellow);
+       background-image: repeating-linear-gradient(to left bottom, red, yellow 10px); */
+       background-image: repeating-linear-gradient(to right, red, yellow);
+       background-image: repeating-linear-gradient(to left top, red, yellow);
+
+       
+       
+
+}
