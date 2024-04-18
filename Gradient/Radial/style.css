@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(circle, red 10%, yellow 20%, green 30%, blue 40%);
+}
