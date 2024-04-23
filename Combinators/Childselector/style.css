@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-one{
+    display: grid;
+    place-items: center;    
+    height: 100%;
+    width: 100%;
+}
+
+
+ul > li {
+    color:  red;
+}
+
+
+div + p {
+    color: red;
+}
+
+
+ol + div {
+    color: red;
+}
+
+ul + ol {
+    color: blueviolet;
+}
+
+/* table, tr, td ,th {
+    border:  1px solid black;
+    padding: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+table + h3 {
+    color: red;
+}
