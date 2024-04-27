@@ -1,25 +1,32 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    height: 1000px;
+    display: grid;
+    align-items: center;
+}
+
+.main-section {
+  width: 100%;
+  text-align: center;
+  background-color: blueviolet;
+  display: block;
+  text-decoration: none;
+  color: white;
+  top: 0;
+}
+
+.section-full a {
+  display: inline-block;
+  padding: 16px 32px;
+  color: brown;
+  font-size: 24px;
+  position: fixed;
+  top: 50%;
 }
 
 
-.main-section{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: blueviolet;
-    display: block;
-    text-decoration: none;
-    color: white;
-    position: fixed;
-
-}
-
-
-.section-two{
-width: 100%;
-height: 1200px;
-border: 10px solid red;
-}
