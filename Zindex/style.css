@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+
+.parent-div{
+    background-color: brown;
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+
+.child{
+    position: absolute;
+}
+
+.child-2{
+    z-index: 1;
+}
+
+.child-3{
+    z-index: 1;
+}
+
+.child-1{
+    z-index: 1;
+}
+
+
