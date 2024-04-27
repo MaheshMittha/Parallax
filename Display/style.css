@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Block Level Elements */
+
+
+/* The <p> element is a block-level element.
+The <div> element is a block-level element. */
+
+/* <address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>-<h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol><p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video> */
+
+
+
+
+/* Inline Elements tag */
+
+/* https://www.w3schools.com/html/html_blocks.asp */
+
+/* <span>Hello World</span> */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* display: grid;
+    place-items: center;
+    margin-right: 300px; */
+
+}
+
+
+p::first-letter{
+    color: red;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+
+#content-one{
+    color: red;
+ 
+}
+
+p{  width: 500px;
+    margin: 0 auto;
+    color: purple;
+    font-weight: 400;
+    background-color: chartreuse;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);
+    background-image: linear-gradient(to right, yellow   , red);
+    border-radius: 5px;
+}
+
+a{
+    text-shadow: 2px 2px 5px rgb(0,0,0.3);
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    border: 1px solid red;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    display: block;
+    padding: 10px 30px;
+    margin-right: 10px;
+
+            
+}

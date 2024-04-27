@@ -1,0 +1,37 @@
+
+
+.Parent-div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+.Parent-div{
+    position: relative;
+    left: 500px;
+}   
+
+.child{
+    position: absolute;
+}
+
+.child2{
+    top: 0;
+    right: 0;
+}
+
+
+.child3{
+    bottom: 0;
+    right: 0;
+}
+
+.child4{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
