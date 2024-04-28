@@ -1,0 +1,58 @@
+/* 
+Property	Description
+column-count	Specifies the number of columns an element should be divided into
+column-fill	Specifies how to fill columns
+column-gap	Specifies the gap between the columns
+column-rule	A shorthand property for setting all the column-rule-* properties
+column-rule-color	Specifies the color of the rule between columns
+column-rule-style	Specifies the style of the rule between columns
+column-rule-width	Specifies the width of the rule between columns
+column-span	Specifies how many columns an element should span across
+column-width	Specifies a suggested, optimal width for the columns
+columns	A shorthand property for setting column-width and column-count */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+.here-section{
+    margin-top: 100px;
+    width: 60%;
+    /* background-color: lightgray; */
+    /* border: 3px solid black; */
+    /* border-radius: 10px; */
+}
+
+h1{
+    font-size: bold;
+    text-align: center;
+    margin: 10px;
+    text-decoration: color(#61677a);
+    text-decoration: double;
+    text-decoration-thickness:2px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    columns: 3;
+    column-rule: 4px solid red;
+    column-gap: 50px;
+    text-align: justify;
+}
+
