@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/*  https://cssgridgarden.com/ */
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -21,10 +24,11 @@ body {
   grid-template-rows: repeat(2, 150px);
   /* grid-template-columns: 150px 150px 1fr; */
   /* grid-template-columns: 1fr 1fr 1fr; */
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: 1fr  min-content repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: 1fr  min-content repeat(1, 1fr); */
+  /* grid-template-columns: 1fr min-content repeat(1, 1fr); */
 
-  /* Below Gaps Properties deprecated */
+  /* Below Gaps Properties are deprecated */
 
   /* grid-row-gap: 20px; */
   /* grid-column-gap: 20px ; */
@@ -47,7 +51,7 @@ body {
   /* justify-items: start; */
   /* justify-items: center; */
   /* justify-items: end; */
-  justify-items: stretch;
+  /* justify-items: stretch; */
 
 }
 
@@ -69,6 +73,8 @@ body {
   grid-column-end: 3; */
   /* grid-area: 2/2/3/3; */
 }
+
+
 
 .item-two {
   background-color: rgb(69 10 10);
